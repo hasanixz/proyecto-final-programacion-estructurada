@@ -247,7 +247,9 @@ También se simularon errores al abrir el archivo para escritura y al sustituirl
 
 `.gitignore` excluye cachés de Python, archivos temporales, el entorno virtual y los TXT generados. `.gitattributes` mantiene finales de línea consistentes en los fuentes y documentos.
 
-El repositorio local utiliza la rama `main` y la identidad de GitHub `hasanixz` con su correo `noreply`, configurada únicamente para este proyecto. La versión inicial está guardada en un commit local. Todavía no hay un repositorio remoto conectado.
+El repositorio utiliza la rama `main` y la identidad de GitHub `hasanixz` con su correo `noreply`, configurada únicamente para este proyecto. El remoto `origin` apunta a [hasanixz/proyecto-final-programacion-estructurada](https://github.com/hasanixz/proyecto-final-programacion-estructurada).
+
+El repositorio de GitHub es privado. Para que el profesor pueda consultarlo, deberá tener acceso como colaborador o recibir una copia de los archivos.
 
 Para guardar cambios posteriores, revisa primero qué vas a incluir:
 
@@ -258,15 +260,13 @@ git diff --cached
 git commit -m "Describir los cambios realizados"
 ```
 
-Después crea un repositorio vacío en GitHub. Estos comandos son una guía para ejecutarlos tú; **no se ha publicado el proyecto**:
+Después de guardar un commit, envía los cambios al repositorio ya configurado:
 
 ```powershell
-git branch --show-current
-git remote add origin https://github.com/TU_USUARIO/TU_REPOSITORIO.git
-git push -u origin NOMBRE_DE_TU_RAMA
+git push
 ```
 
-Sustituye los marcadores por tus datos y la rama mostrada. Si ya existe un remoto llamado `origin`, revisa `git remote -v` antes de agregar otro.
+Puedes consultar la conexión con `git remote -v` y el estado de los cambios con `git status`. No es necesario volver a ejecutar `git init` ni agregar otro remoto.
 
 ## Conclusión y aprendizaje
 
