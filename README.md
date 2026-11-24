@@ -249,7 +249,7 @@ También se simularon errores al abrir el archivo para escritura y al sustituirl
 
 El repositorio utiliza la rama `main` y la identidad de GitHub `hasanixz` con su correo `noreply`, configurada únicamente para este proyecto. El remoto `origin` apunta a [hasanixz/proyecto-final-programacion-estructurada](https://github.com/hasanixz/proyecto-final-programacion-estructurada).
 
-El repositorio de GitHub es privado. Para que el profesor pueda consultarlo, deberá tener acceso como colaborador o recibir una copia de los archivos.
+El repositorio de GitHub es público. Puedes compartir el enlace con tu profesor o tus amigos para que consulten el código y la documentación sin invitación ni inicio de sesión. También pueden descargarlo desde **Code → Download ZIP**. Ver o descargar el proyecto no concede permiso para modificar este repositorio.
 
 Para guardar cambios posteriores, revisa primero qué vas a incluir:
 
