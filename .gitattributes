@@ -1,0 +1,6 @@
+# Mantener los mismos finales de línea en Windows, Linux y macOS.
+* text=auto
+*.py text eol=lf
+*.md text eol=lf
+.gitignore text eol=lf
+.gitattributes text eol=lf

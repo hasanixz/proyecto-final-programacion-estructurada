@@ -1,0 +1,10 @@
+__pycache__/
+*.py[cod]
+*.tmp
+*.bak
+.venv/
+.DS_Store
+Thumbs.db
+Calculadora/historial_calculadora.txt
+Cajero/movimientos.txt
+Cajero/comprobante.txt
